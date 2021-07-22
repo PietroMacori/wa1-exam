@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+
+.createButton{
+  position:fixed;
+  display: flex;
+  bottom:30px;
+	left:3%;
+  width: 27%;  
+}
+
+
+.alert{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+}
+
+.bigHr {
+  background-color: rgb(150, 150, 150) !important;
+  color: rgb(165, 164, 164) !important;
+  height: 0.5px !important;
+  border: 0px;
+  margin-bottom: 2%;
+  width: 85% !important;
+}
+
+
+
+.scrollable-menu {
+  height: auto;
+  position: fixed;
+  max-height: 75vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: #929292 solid 1.5px;
+  border-top: #929292 solid 1.5px;  
+  width:30%;
+}
+
+.scrollable-menu-user{
+  height: auto;
+  max-height: 85vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: #929292 solid 1.5px;
+  border-top: #929292 solid 1.5px;  
+  
+}
+
+.scrollable-list{
+  height: auto;
+  max-height: 90vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.leftButton:hover{
+  background-color:#ccebff!important
+  }
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.loginText:hover {
+  color: #ccdcff!important;
+}
+
+
+.leftButton.active {
+  background-color: #0b8cfc!important;
+  border-color: #0b8cfc!important;
+}
+
+.below-nav{
+  padding-top: 5rem;
+}
+
+
+.vheight-100 {
+  min-height: 100vh;
+}
+
+.leftDiv{
+  background-color: rgb(249, 249, 250);
+}
+
+.fixed-right-bottom {
+  position:relative;
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 15px;
+  z-index: 1030;
+  border-radius: 50%!important;
+
+}
+
+.customIcon{
+  margin: 2px;
+}
